@@ -1,0 +1,226 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Lato, serif;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+
+br
+{
+	background-color:rgba(0,0,0,.025);
+}
+
+.skill-set li:hover
+{
+	background:#3498db;
+}
+
+h1
+{
+	color:rgba(9,177,186,1);
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:260px;
+	position:fixed;
+	width:33.33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+.far_Right
+{
+	background-color:rgba(0,0,0,.0);
+	border-right:1px solid rgba(0,0,0,.0);
+	float:right;
+	height:100%;
+	margin-left:900px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+}
+
+.logo
+{
+	background-image:url(https://meetfrank.com/blog/wp-content/uploads/2019/10/01e0aea7-8df6-4a1e-894e-08e6d3a69368-1539684203682.png) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+	border: 5px solid #007782;
+}
+
+.lygiai 
+{
+	display:inline-block;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://mail.google.com/mail/u/0?ui=2&ik=d6e035f8c6&attid=0.1&permmsgid=msg-f:1744597053793435861&th=18360dc6f38d00d5&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9mHOV5dAGwyYorFE9Ue_-OUwn6NMrBhxuFRPGfnJzJqwmptWkIDDJYtSRYZg9zwScHkog0lQ5FSwWFI-qqlY6aQXmdQBk_TcIYqLwh5sgaEGPfWtpJQNWjgoA&disp=emb&realattid=18360dc27e050e6e0cd1e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+	border: 5px;
+}
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+	color:rgba(0,0,0,.75);
+}
+
+.name-hero em
+{
+	color:rgba(9,177,186,1);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:rgba(0,0,0,.5);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(9,177,186,1);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+.fa 
+{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
